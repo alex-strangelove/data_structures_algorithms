@@ -1,4 +1,5 @@
 export default function selectionSort(array) {
+  if (!array) return [];
   let minIdx = 0;
   let temp = 0;
   for (let i = 0; i < array.length; i++) {

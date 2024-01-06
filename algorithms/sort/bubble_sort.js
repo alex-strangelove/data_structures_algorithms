@@ -1,4 +1,5 @@
 export default function bubbleSort(array) {
+  if (!array) return [];
   let temp = 0;
   for (let i = 0; i < array.length; i++) {
     for (let y = i + 1; y < array.length; y++) {
